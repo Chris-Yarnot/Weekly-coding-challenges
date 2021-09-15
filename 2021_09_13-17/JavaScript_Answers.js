@@ -1,5 +1,3 @@
-console.log("Hello, World!");
-
 function longestNonrepeatingSubstring(str){
   str+= str+"-";
   let lastIndex= new Array(128).fill(0);
